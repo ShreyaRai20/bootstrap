@@ -11,3 +11,41 @@
         max-width: 1170px;
     }
 }
+
+
+@media only screen and (min-width: 200px) and (max-width: 575px){
+    .outer-btn{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .watsapp-btn .call-btn{
+        padding: 7px 5px;
+        font-size: 14px;
+    }
+
+    .banner-content h1 {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        line-height: normal;
+    }
+
+    .banner-content h1 br{
+        display: none;
+    }
+
+    .banner-content p{
+    font-size: 16px;
+}
+
+.banner-content ul{
+    list-style: none;
+    font-size: 16px;
+}
+
+
+}

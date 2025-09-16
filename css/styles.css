@@ -23,10 +23,39 @@
     border-radius: 8px;
 }
 
-.call-btn i{
-
-}
-
 .call-btn:hover{
     color: black;
+}
+
+/* .btn-outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap:1%
+} */
+
+.banner-content h1 {
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.banner-content h1 span{
+    color: #2699FB;
+    background: url('../images/border.png') no-repeat bottom;
+}
+
+.banner-content p{
+    font-size: 30px;
+}
+
+.banner-content ul{
+    list-style: none;
+    font-size: 30px;
+}
+
+.banner-content ul li i{
+    padding: 0.50;
+    color: white;
+    background-color: #2699FB;
+    border-radius: 50%;
 }
