@@ -1,0 +1,32 @@
+.watsapp-btn{
+    color: #27AE60;
+    background-color: #FFFFFF;
+    border: 1px solid #27AE60;
+    border-radius: 16px;
+    height: 40px;
+}
+
+.watsapp-btn i{
+    color: #27AE60;
+
+}
+
+.watsapp-btn:hover{
+    color: #27AE60;
+    background-color: #FFFFFF;
+}
+
+.call-btn{
+    color: white;
+    background:linear-gradient(#0ACEFE,#2699FB);
+    border: none;
+    border-radius: 8px;
+}
+
+.call-btn i{
+
+}
+
+.call-btn:hover{
+    color: black;
+}
