@@ -45,17 +45,69 @@
 }
 
 .banner-content p{
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .banner-content ul{
     list-style: none;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .banner-content ul li i{
     padding: 0.50;
+    font-size: 22px;
     color: white;
     background-color: #2699FB;
     border-radius: 50%;
+}
+
+.hr{
+    display: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: pink;
+}
+
+.hello{
+    background: #142d4e;
+    height: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    position: relative;
+}
+
+@property --deg {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.hello::before,
+.hello::after {
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: conic-gradient(
+        from var(--deg) at center,
+        #00c3ff,
+        #4d0199,
+        #4d0199,
+        #00c3ff
+    );
+    border-radius: inherit;
+    z-index: -2;
+    padding: 2px;
+    animation: autoRotate 2s linear infinite;
+}
+
+.hello::after{
+    filter: blur(10px);
+}
+
+@keyframes autoRotate {
+    to{
+        --deg: 360deg;
+    }
 }
